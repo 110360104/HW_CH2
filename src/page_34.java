@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class page_34 {
 	public static void main(String[] args) throws IOException{
-		System.out.println("請問要在第幾次處理結束迴圈呢?(1~10)");
+		System.out.println("要跳過第幾次的迴圈處理呢?(1~10)");
 		BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
 		
 		String str = br.readLine();
